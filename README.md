@@ -1,7 +1,7 @@
 # IIITH_DSA_T2_Y1_2021_ProjectRepo_Team36_MiniProject1
 
 
-<h1>ReadMe File. </h1>
+<h1><b>ReadMe File. </b></h1>
 
 
 We add data for the Program here. <br>
@@ -11,7 +11,7 @@ We add data for the Program here. <br>
 
 
 
-<h>LOG-></h>
+<h1>LOG-></h1>
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
