@@ -1,10 +1,10 @@
 # IIITH_DSA_T2_Y1_2021_ProjectRepo_Team36_MiniProject1
 
 
-ReadMe File. 
+<title>ReadMe File. </title>
 
 
-We add data for the Program here. 
+We add data for the Program here. <br>
 
 
 
@@ -69,12 +69,14 @@ ________________________________________________________________________________
         
    
    There are other Stubs associated with each root : Namely :-<br>
-    int state_number;     //  "NAME" of a node<br>
-    int value;            //    Data of graph, Used by comparator<br>
-    int parent;           //    Holds the name of the "Parent"<br>
+
     
     
     int depth, seen_time, number_of_children;
+    
+    int state_number;     //  "NAME" of a node<br>
+    int value;            //    Data of graph, Used by comparator<br>
+    int parent;           //    Holds the name of the "Parent"<br>
     
     // We shall remove the 'i' in the main .c and node.h soon.
     
