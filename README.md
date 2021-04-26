@@ -11,7 +11,7 @@ We add data for the Program here.
 
 
 
-LOG->
+<h>LOG-></h>
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
@@ -19,14 +19,17 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <b>Actions Taken</b>
 
-(in Individual folder)
-Added Basic files, Restructured into Standard Form, Added a main.c and A Way to input into Tree.
-
+<i>(in Individual folder)</i><br>
+Added Basic files, Restructured into Standard Form, Added a main.c and A Way to input into Tree.<br>
+Added the find Parent and insert function, It is currently recursive, thinking of ways to make it iterative.<br>
+<br>
+<br>
+Planning to add a print function for to test the Input function.
 
 <b>Documentation :__</b>
 
 
-The Data Structure that WE are Using initally --> As of 26/04/12
+The Data Structure that WE are Using initally --> As of 26/04/12<br>
 ______________________________________________________________________________________________________________________________________
 
                                        Data (Graph) Strcuture
@@ -65,10 +68,10 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________           
         
    
-   There are other Stubs associated with each root : Namely :-
-    int state_number;     //  "NAME" of a node
-    int value;            //    Data of graph, Used by comparator
-    int parent;           //    Holds the name of the "Parent"
+   There are other Stubs associated with each root : Namely :-<br>
+    int state_number;     //  "NAME" of a node<br>
+    int value;            //    Data of graph, Used by comparator<br>
+    int parent;           //    Holds the name of the "Parent"<br>
     
     
     int depth, seen_time, number_of_children;
