@@ -1,3 +1,6 @@
+#ifndef ____node_c____
+#define ____node_c____
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -43,3 +46,6 @@ void findParentAndInsert(node *Root, node *temp)
         }
     }
 }
+
+
+#endif

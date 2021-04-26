@@ -1,3 +1,5 @@
+#ifndef ____node_h____
+#define ____node_h____
 /*
     The idea behind Tree Search Library is that, once given the 'comparator' function between nodes by 
     the user, the library can use this to perform any kind of search by the change of just one function.
@@ -53,3 +55,6 @@ node * SortTheTreeGiven(node* Root);
 void input_node(node *a);
 void findParentAndInsert(node *Root, node *temp);
 
+
+
+#endif

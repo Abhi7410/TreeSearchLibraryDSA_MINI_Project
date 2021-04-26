@@ -1,3 +1,6 @@
+#ifndef ____main_c____
+#define ____main_c____
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -30,3 +33,11 @@ int main()
     return 0;
 }
 
+
+
+
+
+
+
+
+#define ____main_c____
