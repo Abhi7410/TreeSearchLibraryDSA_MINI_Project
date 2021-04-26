@@ -21,6 +21,10 @@
 */
 
 #include <stdio.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <malloc.h>
 
 typedef struct node
 {
@@ -33,63 +37,19 @@ typedef struct node
     node *children[10000];
 } node;
 
-bool node_comparator(node *a, node *b)
-{
-    // User puts in the node comparator here
-    return a->value < b->value; // A sample comparator
-}
 
-void input_node(node *a)
-{
-    // inputs the information of one node. Use this in a loop to input all the nodes.
-    scanf("%d %d %d", &(a->state_number), &(a->value), &(a->parent));
-}
 
-int main()
-{
-    long int N;
-    scanf("%ld", N);
+//The All powerful comparator.
+bool node_comparator(node *a, node *b);
 
-    node Root;
-    input_node(&Root);
+/*
+The Sort using the Comparator
+***Recursive use is depreciated and shall likely be removed in a later update.
+*/
+node * SortTheTreeGiven(node* Root);
 
-    for (long int i = 1; i < N; i++)
-    {
-        node temp;
 
-        //Allocate memory
-        temp.children = malloc();
+// Node Insertion Functions.
+void input_node(node *a);
+void findParentAndInsert(node *Root, node *temp);
 
-        input_node(&temp);
-
-        findParentAndInsert(&Root, &temp);
-    }
-
-    return 0;
-}
-
-void findParentAndInsert(node *Root, node *temp)
-{
-
-    int i;
-    for (i = 0; i < 10000; i++)
-    {
-        if (Root->children[i] == NULL)
-            break;
-    }
-
-    //scan Root
-    if (Root->state_number == temp->parent)
-    {
-
-        Root->children[i] = temp;
-    }
-    else
-    {
-        //Scan Children
-        for (int j = 0; j <=i; j++)
-        {
-            findParentAndInsert(Root->children[j],temp);
-        }
-    }
-}
