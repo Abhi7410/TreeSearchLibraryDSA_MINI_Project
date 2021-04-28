@@ -4,11 +4,58 @@
 <h1><b>ReadMe File. </b></h1>
 
 
+<br>
+
 We add data for the Program here. <br>
 
+<h1>Work Allocation</h1>
+<br><br>
+<table>
+  <tr>
+    <th>Serial No</th>
+    <th>Team Member</th>
+    <th>Work Allocated</th>  
+    <th>Github Profile</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Vivek Mathur</td>
+    <td>Depth First Search, A* search Algorithm, Code merging, <br> Data Analysis lead</td>
+    <td> <a href="https://github.com/Grimoors">LINK</a></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Karthick Ashwath</td>
+    <td>Depth First Search Algorithm, Code merging</td>
+    <td> <a href="https://github.com/KarthickAshwath">LINK</a></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Abhishek Sharma</td>
+    <td>Breadth First Search Algorithm, Code merging</td>
+    <td> <a href="https://github.com/Abhi7410">LINK</a></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Amey Kunte</td>
+    <td>Greedy Search Algorithm</td>
+    <td> <a href="https://github.com/ameykun">LINK</a></td>
+    
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Keerthana K.</td>
+    <td>Greedy Search Algorithm , Monte Carlo Search Algorithm, Iterative deepening depth-first search Algorithm</td>
+    <td> <a href="https://github.com/keerthana747">LINK</a></td>
+  </tr>
+
+</table>
+<br><br>
+
+<h1>Timeline</h1>
 
 
-
+<h1>Documentation</h1>
 
 
 <h1>LOG-></h1>
