@@ -49,7 +49,7 @@ bool node_comparator(node *a, node *b);
 /*
 The Sort using the Comparator
 ***Recursive use is depreciated and shall likely be removed in a later update.
-*/
+*///
 node * SortTheTreeGiven(node* Root);
 
 
