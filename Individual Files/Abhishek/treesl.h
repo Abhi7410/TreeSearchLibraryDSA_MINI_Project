@@ -13,13 +13,12 @@ typedef struct node
 } Node;
 
 typedef struct node* PtrNode;
-void input_node(Node* a);
+PtrNode assign_node(int d,int b,int c);
 void insertNode(PtrNode * ParentArr,PtrNode new, int n);
-PtrNode* Initialise_Tree( int n);
+PtrNode Initialise_Tree(int n, PtrNode* ParentArr);
+void print_Tree( PtrNode* ParentArr,int n);
 
 
-///Vivek -> please check the code written by me, I have moved it to Main Frogram Files.
-///Input and output taken care of
 
 
 
