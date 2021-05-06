@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <malloc.h>
+#include <math.h>
 #include "node.h"
 
 int main()
@@ -40,18 +41,26 @@ int main()
     printf("%d\n", Root.value);
     //TreePrintLOT(&Root);
 
-    //Processing Input - Searching
+    //Processing Input - Inputting to a Priority Queue and starting search
 
-    node * AnswerNode= DFS(&Root,value);
+    long int queue_Size=(long int)trunc(log2(N));
+    PriorityQueueElement Searcher[queue_Size];
 
-    if(AnswerNode==NULL)
-    {
-        printf("The node wasn't found, unfortunately. please Try again");
-    }
-    else
-    {
-        printf("' %ld ' was found at position (state number) %d in the tree at depth = %d and height = %d with parent = %d state",value,AnswerNode->state_number,AnswerNode->depth,AnswerNode->height,AnswerNode->parent);
-    }
+    AddToPriorityQueue(Searcher,&Root,queue_Size);
+    ComparatorSearch(Searcher,&value);
+
+    
+
+    // node * AnswerNode= DFS(&Root,value);
+
+    // if(AnswerNode==NULL)
+    // {
+    //     printf("The node wasn't found, unfortunately. please Try again");
+    // }
+    // else
+    // {
+    //     printf("' %ld ' was found at position (state number) %d in the tree at depth = %d and height = %d with parent = %d state",value,AnswerNode->state_number,AnswerNode->depth,AnswerNode->height,AnswerNode->parent);
+    // }
 
     return 0;
 }

@@ -40,11 +40,18 @@ struct node
     int depth, height, seen_time, number_of_children;
     node *children[10000];
 };
-
+/***
+ * Contains :::
+ * ___________________
+ *  int state_number;
+    int value;
+    int seen_time;
+    ***/
 typedef struct PriorityQueueElement
 {
     int state_number;
-    int value,seen_time;
+    int value;
+    int seen_time;
  /* data */
 }PriorityQueueElement;
 

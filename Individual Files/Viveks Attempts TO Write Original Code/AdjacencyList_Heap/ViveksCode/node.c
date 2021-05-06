@@ -38,6 +38,7 @@ void findParentAndInsert(node *Root, node *temp)
     {
 
         Root->children[i] = temp;
+        Root->number_of_children++;
     }
     else
     {
@@ -51,5 +52,24 @@ void findParentAndInsert(node *Root, node *temp)
     Root->depth++;
 }
 
+void AddToPriorityQueue(PriorityQueueElement Searcher[],node* Root)
+{
+    
+}
+
+void printChildNodes(node* root)
+{
+    int l= root->number_of_children;
+    for(int i=0;i<l;i++)
+    {
+        printf("%ld",root->children[i]->value);
+    }
+}
+void PrintTree(node* root)
+{
+
+    printf("%d\n",root->value);
+    printChildNodes(root);
+}
 
 #endif
