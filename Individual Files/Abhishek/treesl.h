@@ -38,4 +38,17 @@ void heapify(PtrNode Arr[], int i,int size);
 bool comparator(Node* a,Node* b,char *string);
 void Print(PtrHeap P);
 
+typedef struct global_array
+{
+    int max_depth;
+    float sumdepth;
+    int branching_factor;
+    int visited_children;
+    int value;
+}global_array;
+
+
+
+
+
 #endif
