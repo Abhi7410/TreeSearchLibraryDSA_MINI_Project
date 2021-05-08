@@ -66,6 +66,12 @@ int main()
   }
   for (int i = 1; i <= num_nodes; i++)
   {
-    printf("%d           %d             %d             %d               %g \n", i, array[i].value, array[i].max_depth, array[i].branching_factor, (array[i].sumdepth) / i);
+    printf("%d\t ",i);
+    printf("%d\t",array[i].value);
+    printf("%d \t",array[i].branching_factor);
+     printf("%d\t",array[i].max_depth);
+      printf("%g\n",(array[i].sumdepth)/i);
+ 
   }
+  printf("\n");
 }
