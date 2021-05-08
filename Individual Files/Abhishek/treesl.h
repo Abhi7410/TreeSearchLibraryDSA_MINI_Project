@@ -38,3 +38,4 @@ void heapify(PtrNode Arr[], int i,int size);
 bool comparator(Node* a,Node* b,char *string);
 void Print(PtrHeap P);
 
+#endif
