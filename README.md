@@ -17,6 +17,48 @@ We add data for the Program here. <br>
 
 //amey's part
 
+We start off in the main function by declaring a var num_nodes, for number of nodes. We ask for input from the user and initialise num_nodes with that value.
+
+We then declare a var ParentArr of type struct PtrNode,which is an array of num_nodes cells . We allocate it sufficient memory so we can store the values.
+
+Using a for loop,we first initialise it to NULL for all cells of the array.
+
+We now use the Initialise_Tree function to initialise the tree,making nodes one after another based on the input.
+
+We declare a var P of type struct PtrHeap and we initialise it using the Initialise_Heap function. We then give it as a pointer to P.
+
+We then declare a var search_method of type char,which we take as input string to check the traversal.
+
+We declare and initialise a global array for storing various parameters.
+
+We declare an int seentime and initialise it to 0. We will use this to determine the number of times a node is traversed. We assign the value of int seentime to the pointer of the seen_time of struct ParentArr[0]. We then increment it.
+
+We use HeapInsert function which inserts new nodes to the heap and then balancing the heap after each entry. 
+
+Next,a for loop is used to initialise sumdepth of array for all elements.
+
+We declare and initialise an int j = 1.
+
+Using a while loop, with condition of function IsEmpty(P) not being 0. We do a bunch of assigning operations for array[j] and increment j.
+The loop doesnt end there.
+
+Within the loop , we declare and initialise an int i = 0.
+We use a second while loop with the condition of int i being less than ParentArr[value - 1]->num_children. We /////////////Help here///////
+
+The aforementioned outer and inner loops end.
+
+As good programmers, we deallocate the memory allocated to Heap array,the Heap itself and to the parent array using the free() function.
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h1>Work Allocation</h1>
