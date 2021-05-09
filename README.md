@@ -8,6 +8,19 @@
 
 We add data for the Program here. <br>
 
+
+There are 3 files 
+
+main.c
+treesl.c
+treesh.c
+
+//Describe Return type, argument and what a function broadly does. For all functions
+// Digrammatic explaination of Heap and related functions
+// take testcase of 10 and do step by step explaination of Algo of BFS. 
+
+
+
 <h1>Work Allocation</h1>
 <br><br>
 <table>
