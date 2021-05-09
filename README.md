@@ -45,7 +45,7 @@ treesh.c
   <tr>
     <td>3</td>
     <td>Abhishek Sharma</td>
-    <td>Breadth First Search Algorithm, Greedy Algorithm (comparators) , <br>Implemented Heap functions, Code merging, <br>Best Performance in the Team<br>MVP</td>
+    <td>Breadth First Search Algorithm, Greedy Algorithm (comparators) , <br>Implemented Heap functions, Code merging. Coding Lead</td>
     <td> <a href="https://github.com/Abhi7410">LINK</a></td>
   </tr>
   <tr>
