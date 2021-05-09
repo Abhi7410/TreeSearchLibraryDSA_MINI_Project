@@ -33,32 +33,32 @@ treesh.c
   <tr>
     <td>1</td>
     <td>Vivek Mathur</td>
-    <td>Depth First Search, A* search Algorithm, Code merging, <br> Data Analysis lead</td>
+    <td>Depth First Search(Comparator), Code merging, Data Analysis lead -<br> Time Complexity analysis and Graph Plotting</td>
     <td> <a href="https://github.com/Grimoors">LINK</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Karthick Ashwath</td>
-    <td>Depth First Search Algorithm, Code merging</td>
+    <td>Existed.</td>
     <td> <a href="https://github.com/KarthickAshwath">LINK</a></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Abhishek Sharma</td>
-    <td>Breadth First Search Algorithm, Code merging</td>
+    <td>Breadth First Search Algorithm, Greedy Algorithm (comparators) , <br>Implemented Heap functions, Code merging, <br>Best Performance in the Team<br>MVP</td>
     <td> <a href="https://github.com/Abhi7410">LINK</a></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Amey Kunte</td>
-    <td>Greedy Search Algorithm</td>
+    <td>Documentation ( Description of functions and Stepwise explaination), Moral Support</td>
     <td> <a href="https://github.com/ameykun">LINK</a></td>
     
   </tr>
   <tr>
     <td>5</td>
     <td>Keerthana K.</td>
-    <td>Greedy Search Algorithm , Monte Carlo Search Algorithm, Iterative deepening depth-first search Algorithm</td>
+    <td>Algorithm Development</td>
     <td> <a href="https://github.com/keerthana747">LINK</a></td>
   </tr>
 
