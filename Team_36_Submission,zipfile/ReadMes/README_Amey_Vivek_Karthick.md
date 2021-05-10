@@ -75,7 +75,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>1</td>
     <td>Vivek Mathur</td>
-    <td>Depth First Search(Comparator and Algo), A* search (Algo), Code merging, <br> Data Analysis lead and writer</td>
+    <td>Depth First Search(Comparator and Algo), Code merging, <br> Data Analysis lead and writer</td>
     <td> <a href="https://github.com/Grimoors">LINK</a></td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>3</td>
     <td>Abhishek Sharma</td>
-    <td>Greedy Search (Algo and Code), Breadth First Search (Algo and code), Code merging</td>
+    <td>Greedy Search (Algo and Code), Breadth First Search (Algo and code), Code merging <br> Heap Functions and Tree structure </td>
     <td> <a href="https://github.com/Abhi7410">LINK</a></td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>5</td>
     <td>Keerthana K.</td>
-    <td>Greedy Search (Algorithm) , Iterative deepening depth-first search (Algorithm) </td>
+    <td>Greedy Search (Algorithm)</td>
     <td> <a href="https://github.com/keerthana747">LINK</a></td>
   </tr>
 
@@ -112,7 +112,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
 
 
 
-<h1>LOG-></h1>
+<h1>Documentation and Description of Tree Structure</h1>
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
