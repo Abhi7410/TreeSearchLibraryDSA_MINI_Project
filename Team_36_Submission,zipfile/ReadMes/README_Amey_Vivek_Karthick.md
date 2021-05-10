@@ -16,44 +16,45 @@ We add data for the Program here. <br>
 
 <h1>Documentation</h1>
 
-//amey's part
+<h2>Main.c, Description and documentation</h2>
 
-We start off in the main function by declaring a var num_nodes, for number of nodes. We ask for input from the user and initialise num_nodes with that value.
+We start off in the main function by declaring a var num_nodes, for number of nodes. We ask for input from the user and initialise num_nodes with that value.<br>
 
-We then declare a var ParentArr of type struct PtrNode,which is an array of num_nodes cells . We allocate it sufficient memory so we can store the values.
+We then declare a var ParentArr of type struct PtrNode,which is an array of num_nodes cells . We allocate it sufficient memory so we can store the values.<br>
 
-Using a for loop,we first initialise it to NULL for all cells of the array.
+Using a for loop,we first initialise it to NULL for all cells of the array.<br>
 
-We now use the Initialise_Tree function to initialise the tree,making nodes one after another based on the input.
+We now use the Initialise_Tree function to initialise the tree,making nodes one after another based on the input.<br>
 
-We declare a var P of type struct PtrHeap and we initialise it using the Initialise_Heap function. We then give it as a pointer to P.
+We declare a var P of type struct PtrHeap and we initialise it using the Initialise_Heap function. We then give it as a pointer to P.<br>
 
-We then declare a var search_method of type char,which we take as input string to check the traversal.
+We then declare a var search_method of type char,which we take as input string to check the traversal.<br>
 
-We declare and initialise a global array for storing various parameters.
+We declare and initialise a global array for storing various parameters.<br>
 
-We declare an int seentime and initialise it to 0. We will use this to determine the number of times a node is traversed. We assign the value of int seentime to the pointer of the seen_time of struct ParentArr[0]. We then increment it.
+We declare an int seentime and initialise it to 0. We will use this to determine the number of times a node is traversed. We assign the value of int seentime to the pointer of the seen_time of struct ParentArr[0]. We then increment it.<br>
 
-We use HeapInsert function which inserts new nodes to the heap and then balancing the heap after each entry. 
+We use HeapInsert function which inserts new nodes to the heap and then balancing the heap after each entry. <br>
 
-Next,a for loop is used to initialise sumdepth of array for all elements.
+Next,a for loop is used to initialise sumdepth of array for all elements.<br>
 
-We declare and initialise an int j = 1.
+We declare and initialise an int j = 1.<br>
 
 Using a while loop, with condition of function IsEmpty(P) not being 0. We do a bunch of assigning operations for array[j] and increment j.
-The loop doesnt end there.
+The loop doesnt end there.<br>
 
 Within the loop , we declare and initialise an int i = 0.
-We use a second while loop with the condition of int i being less than ParentArr[value - 1]->num_children. We /////////////Help here///////
+We use a second while loop with the condition of int i being less than ParentArr[value - 1]->num_children. We now create a new tree entry and initialise it, while setting a new seentime. This continues till there are exisiting children in the current Node of the tree. <br>
 
-The aforementioned outer and inner loops end.
+The aforementioned outer and inner loops end.<br>
 
-As good programmers, we deallocate the memory allocated to Heap array,the Heap itself and to the parent array using the free() function.
-
-
+As good programmers, we deallocate the memory allocated to Heap array,the Heap itself and to the parent array using the free() function.<br>
 
 
 
+<h2>Treesl.c Description and Documention</h2>
+
+(Refer to Comments and Abhisheks Readme.)
 
 
 
