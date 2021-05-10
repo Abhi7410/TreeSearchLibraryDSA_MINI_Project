@@ -73,32 +73,32 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>1</td>
     <td>Vivek Mathur</td>
-    <td>Depth First Search, A* search Algorithm, Code merging, <br> Data Analysis lead</td>
+    <td>Depth First Search(Comparator and Algo), A* search (Algo), Code merging, <br> Data Analysis lead and writer</td>
     <td> <a href="https://github.com/Grimoors">LINK</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Karthick Ashwath</td>
-    <td>Depth First Search Algorithm, Code merging</td>
+    <td>Documentation</td>
     <td> <a href="https://github.com/KarthickAshwath">LINK</a></td>
   </tr>
   <tr>
     <td>3</td>
     <td>Abhishek Sharma</td>
-    <td>Breadth First Search Algorithm, Code merging</td>
+    <td>Greedy Search Algorithm, Breadth First Search Algorithm, Code merging</td>
     <td> <a href="https://github.com/Abhi7410">LINK</a></td>
   </tr>
   <tr>
     <td>4</td>
     <td>Amey Kunte</td>
-    <td>Greedy Search Algorithm</td>
+    <td>Documentation</td>
     <td> <a href="https://github.com/ameykun">LINK</a></td>
     
   </tr>
   <tr>
     <td>5</td>
     <td>Keerthana K.</td>
-    <td>Greedy Search Algorithm , Monte Carlo Search Algorithm, Iterative deepening depth-first search Algorithm</td>
+    <td>Greedy Search (Algorithm) , Iterative deepening depth-first search (Algorithm) </td>
     <td> <a href="https://github.com/keerthana747">LINK</a></td>
   </tr>
 
