@@ -81,7 +81,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>2</td>
     <td>Karthick Ashwath</td>
-    <td>Documentation</td>
+    <td>Documentation,DFS(Algo)</td>
     <td> <a href="https://github.com/KarthickAshwath">LINK</a></td>
   </tr>
   <tr>
@@ -93,7 +93,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>4</td>
     <td>Amey Kunte</td>
-    <td>Documentation</td>
+    <td>Documentation,BFS(Algo)</td>
     <td> <a href="https://github.com/ameykun">LINK</a></td>
     
   </tr>
