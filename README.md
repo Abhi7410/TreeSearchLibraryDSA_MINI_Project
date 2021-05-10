@@ -85,7 +85,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>3</td>
     <td>Abhishek Sharma</td>
-    <td>Greedy Search Algorithm, Breadth First Search Algorithm, Code merging</td>
+    <td>Greedy Search (Algo and Code), Breadth First Search (Algo and code), Code merging</td>
     <td> <a href="https://github.com/Abhi7410">LINK</a></td>
   </tr>
   <tr>
