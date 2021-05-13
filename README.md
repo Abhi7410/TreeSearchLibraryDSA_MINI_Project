@@ -74,7 +74,7 @@ As good programmers, we deallocate the memory allocated to Heap array,the Heap i
   <tr>
     <td>1</td>
     <td>Vivek Mathur</td>
-    <td>Depth First Search(Comparator and Algo), A* search (Algo), Code merging, <br> Data Analysis lead and writer</td>
+    <td>Depth First Search(Comparator and Algo), Code merging, <br> Data Analysis lead and writer</td>
     <td> <a href="https://github.com/Grimoors">LINK</a></td>
   </tr>
   <tr>
