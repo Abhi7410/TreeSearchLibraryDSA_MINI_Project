@@ -16,7 +16,7 @@ We add data for the Program here. <br>
 
 <h1>Documentation</h1>
 
-//amey's part
+
 
 We start off in the main function by declaring a var num_nodes, for number of nodes. We ask for input from the user and initialise num_nodes with that value.
 
